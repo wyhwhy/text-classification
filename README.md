@@ -6,6 +6,7 @@ The original method to process data is just to use jieba (a Chinese word segment
   2.translate (using scrapy/API to get the translation, no matter what language the text is in)   
   3.extract the Chinese words from the translation text   
   4.word segmentation.  
+    
 Consequently, I tried 6 methods and the accuracies on the test set are as follows  
   1.jieba (Chinese word segmentation) 86.6%  
   2.google translate+jieba 89.2%  
