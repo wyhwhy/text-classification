@@ -3,7 +3,7 @@ I do this project on my own when I had an internship in the Xi’an Webber Softw
 ## Part 1. Data preprocessing
 The original method to process data is just to use jieba (a Chinese word segmentation tool in python). Apparently it is not appropriate because we have English text and mixed text with both Chinese and English. What's more, there is irrelevant information like 'you can download Foxit Reader if you can't open the file online……'. Meanwhile, I would like to validate whether using different methods to preprocess data will improve the accuracy of classification(using the easiest neural network model with 2 dense layers).Then I took the following steps:   
   1.wipe out irrelevant information   
-  2.translate (using scrapy/API to get the translation, no matter what language the text is)   
+  2.translate (using scrapy/API to get the translation, no matter what language the text is in)   
   3.extract the Chinese words from the translation text   
   4.word segmentation.  
 Consequently, I tried 6 methods and the accuracies on the test set are as follows  
