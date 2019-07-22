@@ -33,8 +33,8 @@ I tried 11 traditional machine learning algorithms to validate whether they are 
 ## Part 3. Neural network algorithms
 I tried LSTM, Bi-directional LSTM, GRU, CNN, CNN-LSTM(Bi-LSTM), LSTM(Bi-LSTM)-CNN. The results show that though having a longer running time, the accuracy of Bi-LSTM is higher than LSTM. What's more, LSTM-CNN model is better than CNN-LSTM because the latter one loses some sequential/order information. The best model is CNN and its accuracy reaches **92.2%**.
 ## Conclusion
-1.Further preprocessing data will improve the accuracy of classification to some extent.  
-2.Some traditional machine learning algorithms do have a better performance than neural network algorithms in some situations.
+* 1.Further preprocessing data will improve the accuracy of classification to some extent.  
+* 2.Some traditional machine learning algorithms do have a better performance than neural network algorithms in some situations.
 
 reference:  
 http://konukoii.com/blog/2018/02/19/twitter-sentiment-analysis-using-combined-lstm-cnn-models/
